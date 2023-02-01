@@ -26,7 +26,7 @@ interface GEN2<T extends string | number >{
 }
 
 const gen3: GEN1 = { item: "hello" };
-const gen4: GEN2<string> = { item: "hello"};
+const gen4: GEN2<string> = { item: "hello" };
 
 // 関数のGenericsの使い方
 function funcGen<T>(props: T){
